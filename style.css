@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#n1{
+    background-color: rgb(13, 78, 13);
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+    margin-right: 70px;
+}
+nav li{
+    margin: 5px;
+    padding: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav2  li a:hover{
+    text-decoration: underline green;
+    
+}
+nav p{
+    color: white;
+    margin-top: 7px;
+}
+.nav2{
+    justify-content:flex-start;
+    margin-bottom: 10px;
+  
+}
+.nav2 img{
+    margin: 5px;
+   margin-left: 60px;
+   margin-top: -15px;
+
+}
+.nav2 li{
+    margin-top: -5px;
+}
+.nav2 li a{
+    text-decoration: none;
+    color:rgb(13, 78, 13);
+}
+.banner{
+    margin-top:-15px;
+}
+
+.search{
+    margin-left: 530px;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1.5px solid green;
+    margin-top: -7px;
+}
+.srh{
+    color:rgb(13, 78, 13);
+    margin-left: -140px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.pro{
+    display: flex;
+   padding: 25px;
+   
+}
+.pro img{
+    width: 380px;
+    margin-top: 20px;
+}
+.col h4{
+    position: relative;
+    top: -80px;
+    text-align: center;
+    color: white;
+}
+.col button{
+    position: relative;
+    top: -85px;
+   left: 140px;
+   width: 120px;
+   height: 35px;
+   border-radius: 3px;
+   background-color: white;
+   border: none;
+
+}
+
+.pro button:hover{
+    scale:1.1;
+    
+}
+.pro1{
+    display: flex;
+    padding: 25px;
+    margin-left: -13px;
+    margin-top: -100px;
+}
+.pro1 img{
+  width: 380px;
+  margin: 12px;
+}
+
+.col1 h4{
+    position: relative;
+    top: -100px;
+    text-align: center;
+    color: white;
+
+}
+.col1 button{
+    position: relative;
+    top: -100px;
+   left: 140px;
+   width: 120px;
+   height: 35px;
+   border-radius: 3px;
+   background-color: white;
+   border: none;
+
+}
+.pro1 button:hover{
+    scale:1.1;
+}
+
+
+.nature img{
+ width: 100%;
+ height: 390px;
+ margin-top: -80px;
+}
+.nature button{
+    position: relative;
+    top: -80px;
+    left: 30px;
+    background-color: rgb(13, 78, 13);
+    color: white;
+    border: none;
+    width: 110px;
+    height: 40px;
+
+}
+
+.nature button:hover{
+    background-color: rgb(58, 96, 59);
+}
+
+.sho1{
+    display: flex;
+    background-color:rgb(221, 221, 221);
+    height: 450px;
+    width: 100%;
+    margin-top: -10px;
+    
+   
+
+}
+
+
+.sho1 h3{
+    margin-left: 550px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.Collections{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -350px;
+}
+.col2 img{
+    width: 300px;
+}
+
+.footer{
+    margin-top: -300px;
+}
